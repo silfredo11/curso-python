@@ -37,14 +37,28 @@ print("\nEjercicio 4: Variables")
 print("Crea variables para tu nombre, edad y altura.")
 print("Usa f-strings para imprimir una presentación.")
 
+
 # "Hola! Me llamo midudev y tengo 39 años, mido 1.70 metros"
 
 ### Completa aquí
 
-print("--------------")
+name = " Silfredo"
+age = 27
+tall = 180
+
+print(f"Hola mi nombre es {name}, tengo {age} años y mido {talle} metros.")
 
 print("\nEjercicio 5: Números")
 print("1. Crea una variable con el número PI (sin asignar una variable)")
 print("2. Redondea el número con round()")
 print("3. Haz la división entera entre el número que te salió y el número 2")
 print("4. El resultado debería ser 1")
+
+pi = 3.1415
+pi_redondeado = round(pi)
+pi_division = pi_redondeado / 2
+
+# This is the correct way to solve this exercise
+
+print(round(3.14159) // 2)
+
