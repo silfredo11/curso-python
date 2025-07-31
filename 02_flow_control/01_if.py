@@ -140,9 +140,34 @@ print(mensaje)
 # Pide al usuario que introduzca dos números y muestra un mensaje
 # indicando cuál es mayor o si son iguales
 
+numbers = input("Por favor introduce dos numeros separados por un espacio")
+num1, num2 = numbers.split()
+numero1 = int(num1)
+numero2 = int(num2)
+
+if numero1 > numero2
+  print(f"El numero {1, es mayor")
+elif numero2 > numero1
+  print(f"El numero {numero2 , es mayor que el {numero1")
+else
+  print("Son iguales ")
+                                              
+
+
 # Ejercicio 2: Calculadora simple
 # Pide al usuario dos números y una operación (+, -, *, /)
 # Realiza la operación y muestra el resultado (maneja la división entre zero)
+
+user_information = input("Introduce 2 numeros separados por espacio y el nombre de una peracion (suma, resta, multiplicacion, division): ")
+number1, number2, operation = user_information.split()
+num1 = int(number1)
+num2 = int(number2)
+
+if operation == "suma":
+  resultado_suma = num1 + num2
+  print("El resultado de tu suma es {resultado ")
+elif operation == "resta":
+  resultado_resta = num1 - num2
 
 # Ejercicio 3: Año bisiesto
 # Pide al usuario que introduzca un año y determina si es bisiesto.
